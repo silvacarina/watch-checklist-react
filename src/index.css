@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'modern-normalize/modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Quicksand&display=swap');
+
+/* ----------------- Base -----------------*/
+:root {
+    --color-one: #000000;
+    --color-two: #FFFFFF;
+    --color-three: #540D6F;
+    --color-four: #FDD656;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background: var(--color-three);
 }

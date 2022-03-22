@@ -1,0 +1,9 @@
+.logo {
+    max-width: 100%;
+    margin: 80px 0 0;
+}
+
+.logo__img {
+    height: 160px;
+    flex: 1;
+}
