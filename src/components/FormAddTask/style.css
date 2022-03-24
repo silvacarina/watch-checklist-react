@@ -38,17 +38,17 @@
     cursor: pointer;
 }
 
-.input_type_container {
+.input-type-container {
     margin-top: 6px;
 }
 
-.input_type {
+.input-type {
     margin-left: 15px;
     margin-top: 4px;
     color: var(--color-two);
 }
 
-.input_type input {
+.input-type input {
     margin-right: 4px;
 }
 
