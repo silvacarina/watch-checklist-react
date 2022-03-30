@@ -5,7 +5,7 @@ import './style.css';
 function Logo() {
   return (
     <div className="logo">
-      <img src={logoImg} alt="Logo - Watch Checklist" className="logo__img" />
+      <img src={logoImg} alt="Logo - Watch Checklist" className="logo-img" />
     </div>
   );
 }
